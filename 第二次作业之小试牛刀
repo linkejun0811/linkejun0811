@@ -1,0 +1,11 @@
+#花里胡哨.py
+import turtle
+Q=turtle.Pen()
+turtle.bgcolor("black")
+Q.pensize(2)
+colors=["red","yellow","blue","green","orange","purple"]
+for i in range(520):
+    Q.pencolor(colors[i%6])
+    Q.fd(i*2)
+    Q.right(61)
+Q.done()
